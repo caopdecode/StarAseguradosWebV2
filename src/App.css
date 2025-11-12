@@ -80,9 +80,9 @@ body {
 /* About */
 .about-container {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 5rem 2rem;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
 }
 .about-card {
   background: white;
@@ -92,23 +92,37 @@ body {
   width: 50%;
 }
 
-/* Services */
-.services-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 5rem 2rem;
-}
-.services-card {
+.about-logo{
   background: white;
   color: #00065B;
-  border-radius: 20px;
   padding: 2rem;
+  border-radius: 20px;
   width: 40%;
+}
+
+/* Services */
+.services-section{
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+}
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.services-card {
+  width: 35%;
+  height: auto;
+  background: white;
+  border-radius: 30px;
+  color: #00065b;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 40px;
 }
 
 .services-card h3{
@@ -145,10 +159,6 @@ body {
   font-size: 35px;
 }
 
-.image-card{
-  width: 30%;
-  overflow: hidden;
-}
 
 .image-card img{
   width: 100%;
@@ -251,3 +261,226 @@ body {
 .seguros-list li, .creditos-list li {
   margin-bottom: 0.3rem;
 }
+
+/* === ALIADOS === */
+.aliados-section {
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aliados-section .section-title{
+  font-size: 35px;
+  color: #A8CF45;
+  margin-bottom: 0;
+}
+
+.aliados-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(130px, 130px));
+  gap: 15px;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+.aliados-grid img{
+  width: 120px;
+  height: 120px;
+}
+
+.aliado-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  height: 125px;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.aliado-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #A8CF45;
+}
+
+/* === MODAL === */
+.modal-overlayAllies {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.modal-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 40px 60px;
+  text-align: center;
+  position: relative;
+  color: #00065b;
+}
+.modal-title {
+  color: #A8CF45;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.modal-subtitle {
+  font-size: 1.4rem;
+  color: #00065b;
+}
+.modal-phone {
+  font-size: 1rem;
+  color: #0024a3;
+}
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* === CONTACT === */
+.contact-section {
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.contact-card {
+  width: 380px;
+  height: auto;
+  background: white;
+  border-radius: 30px;
+  color: #00065b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.contact-card-title .contact-card-title-sub{
+  text-align: justify;
+}
+
+.contact-card-title h2{
+  font-size: 35px;
+  color: #A8CF45;
+}
+
+.contact-card .contactInfo{
+  width: 100%;
+}
+
+.image-card {
+  background: white;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #00065b;
+  font-weight: 500;
+}
+
+.contact-icon {
+  color: #A8CF45;
+}
+.contact-cta {
+  margin-top: 20px;
+  color: #0024a3;
+  font-weight: 600;
+}
+.contact-cta span {
+  color: #A8CF45;
+}
+
+/* === FOOTER === */
+.footer {
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  position: relative;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 40px 40px 40px;
+}
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer-logo {
+  width: 200px;
+}
+.footer-circles {
+  display: flex;
+  gap: 20px;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  background-image: url(./assets/IMGs/Circular050_1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circle-2{
+  background-image: url(./assets/IMGs/Circular050_2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.footer-text {
+  color: white;
+  font-weight: 600;
+}
+.social-icon {
+  width: 40px;
+  filter: brightness(1.2);
+}
+.footer-bottom {
+  background: #121212;
+  color: white;
+  padding: 15px 0;
+  font-size: 0.9rem;
+}
+.footer-bottom span {
+  font-weight: 600;
+}
+

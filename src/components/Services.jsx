@@ -17,6 +17,7 @@ const Services = () => {
   ]
 
   return (
+    <section id="services" className="section services-section">
     <motion.div
       className="services-container"
       initial={{ opacity: 0 }}
@@ -57,6 +58,7 @@ const Services = () => {
         )}
       </AnimatePresence>
     </motion.div>
+    </section>
   );
 };
 
