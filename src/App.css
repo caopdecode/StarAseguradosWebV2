@@ -295,6 +295,37 @@ body {
   color: #00065B;
   position: relative;
 }
+
+.modal-left{
+  text-align: justify;
+  width: 50%;
+}
+
+.modal-left h4 {
+  margin-top: 1rem;
+  color: #A8CF45;
+}
+
+.modal-left ul {
+  padding-left: 1.5rem;
+}
+
+.modal-left .cta {
+  font-weight: bold;
+  color: #A8CF45;
+  margin-top: 1rem;
+}
+
+.modal-right{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
 .close-btn {
   position: absolute;
   top: 1rem;
