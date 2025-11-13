@@ -30,6 +30,7 @@ const Services = () => {
           <h2>NUESTROS PRODUCTOS</h2>
           <p>¡Selecciona uno y conoce más!</p>
         </div>
+        <div className="all-services">
         <div className="seguros-services">
           <h3>Seguros</h3>
           <ul className="seguros-list">
@@ -49,6 +50,7 @@ const Services = () => {
                   </li>
               ))}
           </ul>
+        </div>
         </div>
       </div>
 
