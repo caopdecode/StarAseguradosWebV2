@@ -53,7 +53,7 @@ const ModalService = ({ service, onClose }) => {
         </div>
 
         <div className="modal-right">
-          IMAGEN alusiva aquí
+          <img src={data.image} alt="Imagen Servicios" />
         </div>
       </motion.div>
     </motion.div>

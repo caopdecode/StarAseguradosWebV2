@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div className="footer-right">
           <p className="footer-text">¡SÍGUENOS EN NUESTRAS REDES SOCIALES!</p>
-          <img src={instagramIcon} alt="Instagram" className="social-icon" />
+          <a href="https://www.instagram.com/staraseguradosltda" target="_blank"><img src={instagramIcon} alt="Instagram" className="social-icon" /></a>
         </div>
       </div>
       <div className="footer-bottom">

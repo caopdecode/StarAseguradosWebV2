@@ -287,7 +287,7 @@ body {
   align-items: center;
 }
 .modal-content {
-  background: rgba(227, 227, 227, 0.85);
+  background: #f0f0f0;
   border-radius: 20px;
   display: flex;
   padding: 2rem;
@@ -299,6 +299,10 @@ body {
 .modal-left{
   text-align: justify;
   width: 50%;
+}
+
+.modal-left h2{
+  color: #A8CF45;
 }
 
 .modal-left h4 {
@@ -321,8 +325,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
   margin-left: 50px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.modal-right img{
+  width: 100%;
+  height: auto;
   border-radius: 20px;
 }
 
@@ -410,10 +420,12 @@ body {
 .modal-subtitle {
   font-size: 1.4rem;
   color: #00065b;
+  margin-bottom: 0;
 }
 .modal-phone {
   font-size: 1rem;
   color: #0024a3;
+  font-size: 20px;
 }
 .modal-close {
   position: absolute;

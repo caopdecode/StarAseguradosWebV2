@@ -23,12 +23,12 @@ const aliados = [
   { id: 5, name: "Seguros Mundial", phone: "#935", image: logoMundial },
   { id: 6, name: "SBS", phone: "#360", image: logoSBS },
   { id: 7, name: "Zurich", phone: "#723", image: logoZurich},
-  { id: 8, name: "CrediSeguro", phone: "01 8000 234 567", image: logoCrediSeguro},
-  { id: 9, name: "Crediestado", phone: "01 8000 888 777", image: logoCrediestado},
-  { id: 10, name: "Finesa Vehículos", phone: "01 8000 987 654", image: logoFinesa },
-  { id: 11, name: "Sufi", phone: "01 8000 321 123", image: logoSufi},
-  { id: 12, name: "Banco de Occidente", phone: "01 8000 876 543", image: logoBancoOccidente },
-  { id: 13, name: "Banco Finandina", phone: "01 8000 654 987", image: logoBancoFinandina},
+  { id: 8, name: "CrediSeguro", phone: "+57 3164739140", image: logoCrediSeguro},
+  { id: 9, name: "Crediestado", phone: "+57 (601) 6912101", image: logoCrediestado},
+  { id: 10, name: "Finesa Vehículos", phone: "+57 3160172064", image: logoFinesa },
+  { id: 11, name: "Sufi", phone: "018000517834", image: logoSufi},
+  { id: 12, name: "Banco de Occidente", phone: "018000514652", image: logoBancoOccidente },
+  { id: 13, name: "Banco Finandina", phone: "018000514652", image: logoBancoFinandina},
 ];
 
 const Aliados = () => {

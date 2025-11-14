@@ -13,7 +13,7 @@ const Services = () => {
   ];
 
   const servicesFin = [
-    "Vehículos", "Motos de Alto Cilindraje"
+    "Cred. Vehículos", "Cred. Motos de Alto Cilindraje"
   ]
 
   return (
