@@ -7,6 +7,10 @@ import motocicletaImage from "../assets/IMGs/Services/Motocicletas.png";
 import arrendamientoImage from "../assets/IMGs/Services/Arrendamiento.png";
 import bicicletaImage from "../assets/IMGs/Services/Bicicleta.png";
 import cumplimientoImage from "../assets/IMGs/Services/Cumplimiento.png";
+import rcEmpresas from "../assets/IMGs/Services/rcEmpresas.png";
+import rcProfesional from "../assets/IMGs/Services/rcProfesional.png";
+import rcContractual from "../assets/IMGs/Services/rcContractual.png";
+import { image } from "framer-motion/client";
 
 
 
@@ -121,45 +125,32 @@ const servicesData = {
     image: bicicletaImage
   },
   "RC Empresas": {
-    consiste: "El seguro de vehículos te brinda protección integral y tranquilidad al conducir, cubriendo tu automóvil frente a accidentes, robos o daños materiales y personales. Más allá de proteger el vehículo, este seguro resguarda la vida del conductor, sus acompañantes y su patrimonio, ofreciendo respaldo económico ante cualquier imprevisto. Diseñado para todo tipo de vehículos, garantiza seguridad y confianza antes, durante y después de cada trayecto, permitiéndote disfrutar de la movilidad con total tranquilidad.",
-    coberturas: [
-      "Daños a terceros (RC)",
-      "Pérdida total o parcial",
-      "Asistencia en carretera 24/7"
-    ],
-    cta: "Cotiza tu seguro de vehículo con Star Asegurados y maneja con tranquilidad.",
-    frase: "Conduce con confianza sabiendo que tú y tu vehículo están protegidos.",
-    enlace: "https://tusitio.com/vehiculos"
+    consiste: "El seguro de responsabilidad civil para empresas protege a tu organización frente a reclamaciones por daños o perjuicios causados a terceros durante el desarrollo de sus actividades. Cubre afectaciones a bienes, personas o entornos derivados de operaciones, empleados, visitantes o procesos internos, ofreciendo respaldo financiero y legal para garantizar la continuidad del negocio. Es una solución esencial para empresas que buscan operar con seguridad, confianza y cumplimiento normativo.",
+    coberturas: [],
+    cta: "Cotiza tu RC Empresas con Star Asegurados y opera con tranquilidad.",
+    frase: "Protege tu empresa frente a imprevistos.",
+    enlace: "https://tusitio.com/vehiculos",
+    image: rcEmpresas
   },
   "RC Profesional": {
-    consiste: "El seguro de vehículos te brinda protección integral y tranquilidad al conducir, cubriendo tu automóvil frente a accidentes, robos o daños materiales y personales. Más allá de proteger el vehículo, este seguro resguarda la vida del conductor, sus acompañantes y su patrimonio, ofreciendo respaldo económico ante cualquier imprevisto. Diseñado para todo tipo de vehículos, garantiza seguridad y confianza antes, durante y después de cada trayecto, permitiéndote disfrutar de la movilidad con total tranquilidad.",
-    coberturas: [
-      "Daños a terceros (RC)",
-      "Pérdida total o parcial",
-      "Asistencia en carretera 24/7"
-    ],
-    cta: "Cotiza tu seguro de vehículo con Star Asegurados y maneja con tranquilidad.",
-    frase: "Conduce con confianza sabiendo que tú y tu vehículo están protegidos.",
-    enlace: "https://tusitio.com/vehiculos"
+    consiste: "El seguro de responsabilidad civil profesional protege a especialistas y prestadores de servicios frente a reclamaciones por errores, omisiones o negligencias en el ejercicio de su profesión. Brinda respaldo económico y legal ante posibles demandas que puedan afectar el patrimonio y la reputación del profesional, garantizando tranquilidad al ofrecer servicios en sectores como salud, ingeniería, arquitectura, asesoría, tecnología y más.",
+    coberturas: [],
+    cta: "Cotiza tu RC Profesional con Star Asegurados y respalda tu labor.",
+    frase: "Ejercer con confianza también es parte de tu profesión.",
+    enlace: "https://tusitio.com/vehiculos",
+    image: rcProfesional
   },
   "RC Contractual": {
-    consiste: "El seguro de vehículos te brinda protección integral y tranquilidad al conducir, cubriendo tu automóvil frente a accidentes, robos o daños materiales y personales. Más allá de proteger el vehículo, este seguro resguarda la vida del conductor, sus acompañantes y su patrimonio, ofreciendo respaldo económico ante cualquier imprevisto. Diseñado para todo tipo de vehículos, garantiza seguridad y confianza antes, durante y después de cada trayecto, permitiéndote disfrutar de la movilidad con total tranquilidad.",
-    coberturas: [
-      "Daños a terceros (RC)",
-      "Pérdida total o parcial",
-      "Asistencia en carretera 24/7"
-    ],
+    consiste: "El seguro de responsabilidad civil contractual cubre los daños o perjuicios causados a terceros derivados del incumplimiento o ejecución de un contrato. Protege a empresas y personas que adquieren responsabilidades pactadas y que puedan enfrentar reclamaciones por afectaciones durante la prestación de servicios, suministro, obras o acuerdos formales. Es una garantía clave para mantener relaciones comerciales seguras y cumplir compromisos establecidos.",
+    coberturas: [],
     cta: "Cotiza tu seguro de vehículo con Star Asegurados y maneja con tranquilidad.",
     frase: "Conduce con confianza sabiendo que tú y tu vehículo están protegidos.",
-    enlace: "https://tusitio.com/vehiculos"
+    enlace: "https://tusitio.com/vehiculos",
+    image: rcContractual
   },
   "RC Extracontractual": {
     consiste: "El seguro de vehículos te brinda protección integral y tranquilidad al conducir, cubriendo tu automóvil frente a accidentes, robos o daños materiales y personales. Más allá de proteger el vehículo, este seguro resguarda la vida del conductor, sus acompañantes y su patrimonio, ofreciendo respaldo económico ante cualquier imprevisto. Diseñado para todo tipo de vehículos, garantiza seguridad y confianza antes, durante y después de cada trayecto, permitiéndote disfrutar de la movilidad con total tranquilidad.",
-    coberturas: [
-      "Daños a terceros (RC)",
-      "Pérdida total o parcial",
-      "Asistencia en carretera 24/7"
-    ],
+    coberturas: [],
     cta: "Cotiza tu seguro de vehículo con Star Asegurados y maneja con tranquilidad.",
     frase: "Conduce con confianza sabiendo que tú y tu vehículo están protegidos.",
     enlace: "https://tusitio.com/vehiculos"
@@ -181,22 +172,14 @@ const servicesData = {
   },
   "Cred. Vehículos": {
     consiste: "El seguro de vehículos te brinda protección integral y tranquilidad al conducir, cubriendo tu automóvil frente a accidentes, robos o daños materiales y personales. Más allá de proteger el vehículo, este seguro resguarda la vida del conductor, sus acompañantes y su patrimonio, ofreciendo respaldo económico ante cualquier imprevisto. Diseñado para todo tipo de vehículos, garantiza seguridad y confianza antes, durante y después de cada trayecto, permitiéndote disfrutar de la movilidad con total tranquilidad.",
-    coberturas: [
-      "Daños a terceros (RC)",
-      "Pérdida total o parcial",
-      "Asistencia en carretera 24/7"
-    ],
+    coberturas: [],
     cta: "Cotiza tu seguro de vehículo con Star Asegurados y maneja con tranquilidad.",
     frase: "Conduce con confianza sabiendo que tú y tu vehículo están protegidos.",
     enlace: "https://tusitio.com/vehiculos"
   },
   "Cred. Motos de Alto Cilindraje": {
     consiste: "El seguro de vehículos te brinda protección integral y tranquilidad al conducir, cubriendo tu automóvil frente a accidentes, robos o daños materiales y personales. Más allá de proteger el vehículo, este seguro resguarda la vida del conductor, sus acompañantes y su patrimonio, ofreciendo respaldo económico ante cualquier imprevisto. Diseñado para todo tipo de vehículos, garantiza seguridad y confianza antes, durante y después de cada trayecto, permitiéndote disfrutar de la movilidad con total tranquilidad.",
-    coberturas: [
-      "Daños a terceros (RC)",
-      "Pérdida total o parcial",
-      "Asistencia en carretera 24/7"
-    ],
+    coberturas: [],
     cta: "Cotiza tu seguro de vehículo con Star Asegurados y maneja con tranquilidad.",
     frase: "Conduce con confianza sabiendo que tú y tu vehículo están protegidos.",
     enlace: "https://tusitio.com/vehiculos"

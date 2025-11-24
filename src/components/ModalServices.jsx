@@ -36,12 +36,14 @@ const ModalService = ({ service, onClose }) => {
 
           <h4>¿En qué consiste?</h4>
           <p>{data.consiste}</p>
-
-          <h4>Coberturas</h4>
-          <ul>
-            {data.coberturas.map((c, i) => <li key={i}>{c}</li>)}
-          </ul>
-
+          {data.coberturas && data.coberturas.length > 0 && ((
+            <> 
+              <h4>Coberturas</h4>
+              <ul>
+                {data.coberturas.map((c, i) => <li key={i}>{c}</li>)}
+              </ul>
+            </>
+          ))}
           <p className="cta">{data.cta}</p>
 
           <p>
