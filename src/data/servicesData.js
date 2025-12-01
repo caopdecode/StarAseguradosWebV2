@@ -10,8 +10,9 @@ import cumplimientoImage from "../assets/IMGs/Services/Cumplimiento.png";
 import rcEmpresas from "../assets/IMGs/Services/rcEmpresas.png";
 import rcProfesional from "../assets/IMGs/Services/rcProfesional.png";
 import rcContractual from "../assets/IMGs/Services/rcContractual.png";
-import { image } from "framer-motion/client";
-
+import rcExtracontractual from "../assets/IMGs/Services/Extracontractual.png";
+import credVehiculos from "../assets/IMGs/Services/credVehiculos.png";
+import credMotosAltoCilindraje from "../assets/IMGs/Services/CredMotosAltoCilindraje.png";
 
 
 
@@ -149,11 +150,12 @@ const servicesData = {
     image: rcContractual
   },
   "RC Extracontractual": {
-    consiste: "El seguro de vehículos te brinda protección integral y tranquilidad al conducir, cubriendo tu automóvil frente a accidentes, robos o daños materiales y personales. Más allá de proteger el vehículo, este seguro resguarda la vida del conductor, sus acompañantes y su patrimonio, ofreciendo respaldo económico ante cualquier imprevisto. Diseñado para todo tipo de vehículos, garantiza seguridad y confianza antes, durante y después de cada trayecto, permitiéndote disfrutar de la movilidad con total tranquilidad.",
+    consiste: "El seguro de responsabilidad civil extracontractual ofrece protección frente a reclamaciones por daños o lesiones ocasionadas a terceros sin existir un contrato previo, ya sea por actividades cotidianas, comerciales, accidentes, instalaciones o personas bajo responsabilidad. Cubre perjuicios materiales, personales y morales, brindando apoyo financiero y asistencia legal para enfrentar reclamaciones imprevistas.",
     coberturas: [],
-    cta: "Cotiza tu seguro de vehículo con Star Asegurados y maneja con tranquilidad.",
-    frase: "Conduce con confianza sabiendo que tú y tu vehículo están protegidos.",
-    enlace: "https://tusitio.com/vehiculos"
+    cta: "Cotiza tu RC Extracontractual con Star Asegurados y actúa con tranquilidad.",
+    frase: "Respaldo total ante daños a terceros fuera de un contrato.",
+    enlace: "https://tusitio.com/vehiculos",
+    image: rcExtracontractual
   },
   "Cumplimiento de Contrato": {
     consiste: "El seguro de cumplimiento garantiza que las obligaciones pactadas en un contrato se cumplan correctamente, protegiendo a empresas y personas frente a posibles incumplimientos de contratistas. Ofrece respaldo en contratos comerciales, órdenes de compra y ofertas mercantiles, asegurando la correcta ejecución de compromisos y aportando seguridad jurídica y confianza en cada proceso contractual.",
@@ -171,18 +173,20 @@ const servicesData = {
     image: cumplimientoImage
   },
   "Cred. Vehículos": {
-    consiste: "El seguro de vehículos te brinda protección integral y tranquilidad al conducir, cubriendo tu automóvil frente a accidentes, robos o daños materiales y personales. Más allá de proteger el vehículo, este seguro resguarda la vida del conductor, sus acompañantes y su patrimonio, ofreciendo respaldo económico ante cualquier imprevisto. Diseñado para todo tipo de vehículos, garantiza seguridad y confianza antes, durante y después de cada trayecto, permitiéndote disfrutar de la movilidad con total tranquilidad.",
+    consiste: "Los créditos para vehículos permiten financiar la compra de un carro nuevo o usado con planes de pago flexibles, tasas competitivas y opciones que se ajustan a tu capacidad financiera. Este servicio facilita el acceso a movilidad segura y moderna, ofreciendo acompañamiento durante todo el proceso para que puedas adquirir tu vehículo sin afectar tu estabilidad económica y con total tranquilidad.",
     coberturas: [],
-    cta: "Cotiza tu seguro de vehículo con Star Asegurados y maneja con tranquilidad.",
-    frase: "Conduce con confianza sabiendo que tú y tu vehículo están protegidos.",
-    enlace: "https://tusitio.com/vehiculos"
+    cta: "Solicita tu crédito para vehículo con Star Asegurados y estrena sin complicaciones.",
+    frase: "Haz realidad tu próximo vehículo con una financiación hecha para ti.",
+    enlace: "https://tusitio.com/vehiculos",
+    image: credVehiculos
   },
   "Cred. Motos de Alto Cilindraje": {
-    consiste: "El seguro de vehículos te brinda protección integral y tranquilidad al conducir, cubriendo tu automóvil frente a accidentes, robos o daños materiales y personales. Más allá de proteger el vehículo, este seguro resguarda la vida del conductor, sus acompañantes y su patrimonio, ofreciendo respaldo económico ante cualquier imprevisto. Diseñado para todo tipo de vehículos, garantiza seguridad y confianza antes, durante y después de cada trayecto, permitiéndote disfrutar de la movilidad con total tranquilidad.",
+    consiste: "Los créditos para motos de alto cilindraje están diseñados para quienes buscan potencia, rendimiento y libertad en la carretera, permitiendo financiar motocicletas nuevas o usadas con cuotas cómodas y condiciones favorables. Este servicio te ofrece planes ajustados a tu presupuesto, asesoría durante el proceso y respaldo seguro para que disfrutes una moto de alto desempeño sin afectar tu economía.",
     coberturas: [],
-    cta: "Cotiza tu seguro de vehículo con Star Asegurados y maneja con tranquilidad.",
-    frase: "Conduce con confianza sabiendo que tú y tu vehículo están protegidos.",
-    enlace: "https://tusitio.com/vehiculos"
+    cta: "Solicita tu crédito para moto de alto cilindraje con Star Asegurados y rueda con libertad.",
+    frase: "Lleva tu pasión sobre dos ruedas con una financiación a tu medida.",
+    enlace: "https://tusitio.com/vehiculos",
+    image: credMotosAltoCilindraje
   }
   // Puedes seguir agregando los demás servicios aquí...
 };
