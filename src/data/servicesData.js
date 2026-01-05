@@ -14,11 +14,6 @@ import rcExtracontractual from "../assets/IMGs/Services/Extracontractual.png";
 import credVehiculos from "../assets/IMGs/Services/credVehiculos.png";
 import credMotosAltoCilindraje from "../assets/IMGs/Services/CredMotosAltoCilindraje.png";
 
-
-
-
-
-
 const servicesData = {
   "Vida": {
     consiste: "El seguro de vida es mucho más que una póliza: es una forma de proteger lo que más valoras. Te brinda seguridad económica y respaldo financiero para ti y tus seres queridos ante cualquier imprevisto. Con opciones flexibles de pago y beneficios adicionales, este seguro se adapta a cada etapa de tu vida, ofreciéndote la tranquilidad de saber que tu futuro y el de tu familia están protegidos.",

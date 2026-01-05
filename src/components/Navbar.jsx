@@ -15,7 +15,7 @@ const Navbar = () => {
   const sections = [
     { id: "home", icon: <img src={homeIcon} alt="Inicio" className="nav-icon" />, label: "Inicio" },
     { id: "about", icon: <img src={aboutIcon} alt="Sobre Nosotros" className="nav-icon" />, label: "Sobre Nosotros" },
-    { id: "services", icon: <img src={servicesIcon} alt="Servicios" className="nav-icon" />, label: "Servicios" },
+    { id: "services", icon: <img src={servicesIcon} alt="Servicios" className="nav-icon" />, label: "Productos" },
     { id: "aliados", icon: <img src={aliadosIcon} alt="Aliados" className="nav-icon" />, label: "Aliados" },
     { id: "contact", icon: <img src={contactIcon} alt="Contacto" className="nav-icon" />, label: "Contacto" },
   ];

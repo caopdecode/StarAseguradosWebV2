@@ -16,10 +16,10 @@ import logoBancoOccidente from "../assets/IMGs/Aliados/LogoBancoOccidente.png"
 import logoBancoFinandina from "../assets/IMGs/Aliados/BancoFinandina.png"
 
 const aliados = [
-  { id: 1, name: "Sura", phone: "#888 - Opción 8", image: logoSura},
+  { id: 1, name: "Sura", phone: "#888", image: logoSura},
   { id: 2, name: "Equidad Seguros", phone: "#324", image: logoEquidad },
   { id: 3, name: "Seguros Bolívar", phone: "#322", image: logoBolivar},
-  { id: 4, name: "Seguros del Estado", phone: "#388 - Opción 1 y 2", image: logoEstado },
+  { id: 4, name: "Seguros del Estado", phone: "#388", image: logoEstado },
   { id: 5, name: "Seguros Mundial", phone: "#935", image: logoMundial },
   { id: 6, name: "SBS", phone: "#360", image: logoSBS },
   { id: 7, name: "Zurich", phone: "#723", image: logoZurich},
