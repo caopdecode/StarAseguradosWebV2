@@ -14,6 +14,7 @@ import logoFinesa from "../assets/IMGs/Aliados/LogoFinesa.png"
 import logoSufi from "../assets/IMGs/Aliados/LogoSufi.png"
 import logoBancoOccidente from "../assets/IMGs/Aliados/LogoBancoOccidente.png"
 import logoBancoFinandina from "../assets/IMGs/Aliados/BancoFinandina.png"
+import logoQualitas from "../assets/IMGs/Aliados/LogoQualitas.png"
 
 const aliados = [
   { id: 1, name: "Sura", phone: "#888", image: logoSura},
@@ -23,6 +24,7 @@ const aliados = [
   { id: 5, name: "Seguros Mundial", phone: "#935", image: logoMundial },
   { id: 6, name: "SBS", phone: "#360", image: logoSBS },
   { id: 7, name: "Zurich", phone: "#723", image: logoZurich},
+  { id: 14, name: "Qualitas", phone: "#963", image: logoQualitas},
   { id: 8, name: "CrediSeguro", phone: "+57 3164739140", image: logoCrediSeguro},
   { id: 9, name: "Crediestado", phone: "+57 (601) 6912101", image: logoCrediestado},
   { id: 10, name: "Finesa Vehículos", phone: "+57 3160172064", image: logoFinesa },
