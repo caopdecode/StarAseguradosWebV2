@@ -25,8 +25,8 @@ const servicesData = {
       "Básico de vida."
     ],
     cta: "Cotiza tu seguro de vida con Star Asegurados y protege tu futuro",
-    frase: "Asegura hoy el bienestar de quienes más quieres y vive con la tranquilidad de estar protegido.",
-    enlace: "https://tusitio.com/vida",
+    frase: "Asegura hoy el bienestar de quienes más quieres y vive con la tranquilidad de estar protegido ",
+    enlace: "https://wa.link/0ec9tb",
     image: vidaImage
   },
   "Salud": {
@@ -39,8 +39,8 @@ const servicesData = {
       "Laboratorios clínicos."
     ],
     cta: "Cotiza tu seguro de salud con Star Asegurados y protege tu bienestar.",
-    frase: "Cuida tu salud y la de tu familia con un respaldo que te acompaña siempre.",
-    enlace: "https://tusitio.com/salud",
+    frase: "Cuida tu salud y la de tu familia con un respaldo que te acompaña siempre ",
+    enlace: "https://wa.link/nvrhuu",
     image: saludImage
   },
   "Hogar": {
@@ -54,8 +54,8 @@ const servicesData = {
       "Terremotos."
     ],
     cta: "Cotiza tu seguro de hogar con Star Asegurados y protege tu patrimonio.",
-    frase: "Tu casa merece la protección que te dé tranquilidad todos los días.",
-    enlace: "https://tusitio.com/hogar",
+    frase: "Tu casa merece la protección que te dé tranquilidad todos los días ",
+    enlace: "https://wa.link/q2c3d3",
     image: hogarImage
   },
   "Vehículos": {
@@ -65,8 +65,8 @@ const servicesData = {
       "Pérdida total y parcial por daños ó hurtos."
     ],
     cta: "Cotiza tu seguro de vehículo con Star Asegurados y maneja con tranquilidad.",
-    frase: "Conduce con confianza sabiendo que tú y tu vehículo están protegidos.",
-    enlace: "https://tusitio.com/vehiculos",
+    frase: "Conduce con confianza sabiendo que tú y tu vehículo están protegidos ",
+    enlace: "https://wa.link/r5atm0",
     image: vehiculosImage
   },
   "Educación": {
@@ -78,8 +78,8 @@ const servicesData = {
       "Plan Vida Complemento."
     ],
     cta: "Cotiza tu seguro de educación con Star Asegurados y construye tu futuro académico.",
-    frase: "Asegura hoy las oportunidades educativas del mañana.",
-    enlace: "https://tusitio.com/vehiculos",
+    frase: "Asegura hoy las oportunidades educativas del mañana ",
+    enlace: "https://wa.link/vvb7v0",
     image: educacionImage
   },
   "Motocicletas": {
@@ -91,8 +91,8 @@ const servicesData = {
       "Responsabilidad Civil Extracontractual."
     ],
     cta: "Cotiza tu seguro de motocicleta con Star Asegurados y conduce con confianza.",
-    frase: "Tu moto merece la protección que te acompañe en cada kilómetro.",
-    enlace: "https://tusitio.com/vehiculos",
+    frase: "Tu moto merece la protección que te acompañe en cada kilómetro ",
+    enlace: "https://wa.link/wncepu",
     image: motocicletaImage
   },
   "Arrendamiento": {
@@ -103,8 +103,8 @@ const servicesData = {
       "Reembolso de valor de servicios públicos."
     ],
     cta: "Cotiza tu seguro de arrendamiento con Star Asegurados y garantiza tus ingresos.",
-    frase: "Protege tu renta y asegura la tranquilidad de tu inversión.",
-    enlace: "https://tusitio.com/vehiculos",
+    frase: "Protege tu renta y asegura la tranquilidad de tu inversión ",
+    enlace: "https://wa.link/exfsjt",
     image: arrendamientoImage
   },
   "Bicicletas": {
@@ -116,40 +116,40 @@ const servicesData = {
       "Pérdidas totales por daño o hurto"
     ],
     cta: "Cotiza tu seguro de bicicleta con Star Asegurados y pedalea seguro.",
-    frase: "Pedalea con confianza sabiendo que tu bicicleta está protegida.",
-    enlace: "https://tusitio.com/vehiculos",
+    frase: "Pedalea con confianza sabiendo que tu bicicleta está protegida ",
+    enlace: "https://wa.link/s7n69f",
     image: bicicletaImage
   },
   "RC Empresas": {
     consiste: "El seguro de responsabilidad civil para empresas protege a tu organización frente a reclamaciones por daños o perjuicios causados a terceros durante el desarrollo de sus actividades. Cubre afectaciones a bienes, personas o entornos derivados de operaciones, empleados, visitantes o procesos internos, ofreciendo respaldo financiero y legal para garantizar la continuidad del negocio. Es una solución esencial para empresas que buscan operar con seguridad, confianza y cumplimiento normativo.",
     coberturas: [],
     cta: "Cotiza tu RC Empresas con Star Asegurados y opera con tranquilidad.",
-    frase: "Protege tu empresa frente a imprevistos.",
-    enlace: "https://tusitio.com/vehiculos",
+    frase: "Protege tu empresa frente a imprevistos ",
+    enlace: "https://wa.link/rcrmkv",
     image: rcEmpresas
   },
   "RC Profesional": {
     consiste: "El seguro de responsabilidad civil profesional protege a especialistas y prestadores de servicios frente a reclamaciones por errores, omisiones o negligencias en el ejercicio de su profesión. Brinda respaldo económico y legal ante posibles demandas que puedan afectar el patrimonio y la reputación del profesional, garantizando tranquilidad al ofrecer servicios en sectores como salud, ingeniería, arquitectura, asesoría, tecnología y más.",
     coberturas: [],
     cta: "Cotiza tu RC Profesional con Star Asegurados y respalda tu labor.",
-    frase: "Ejercer con confianza también es parte de tu profesión.",
-    enlace: "https://tusitio.com/vehiculos",
+    frase: "Ejercer con confianza también es parte de tu profesión ",
+    enlace: "https://wa.link/jip899",
     image: rcProfesional
   },
   "RC Contractual": {
     consiste: "El seguro de responsabilidad civil contractual cubre los daños o perjuicios causados a terceros derivados del incumplimiento o ejecución de un contrato. Protege a empresas y personas que adquieren responsabilidades pactadas y que puedan enfrentar reclamaciones por afectaciones durante la prestación de servicios, suministro, obras o acuerdos formales. Es una garantía clave para mantener relaciones comerciales seguras y cumplir compromisos establecidos.",
     coberturas: [],
     cta: "Cotiza tu seguro de vehículo con Star Asegurados y maneja con tranquilidad.",
-    frase: "Conduce con confianza sabiendo que tú y tu vehículo están protegidos.",
-    enlace: "https://tusitio.com/vehiculos",
+    frase: "Conduce con confianza sabiendo que tú y tu vehículo están protegidos ",
+    enlace: "https://wa.link/i3nlhl",
     image: rcContractual
   },
   "RC Extracontractual": {
     consiste: "El seguro de responsabilidad civil extracontractual ofrece protección frente a reclamaciones por daños o lesiones ocasionadas a terceros sin existir un contrato previo, ya sea por actividades cotidianas, comerciales, accidentes, instalaciones o personas bajo responsabilidad. Cubre perjuicios materiales, personales y morales, brindando apoyo financiero y asistencia legal para enfrentar reclamaciones imprevistas.",
     coberturas: [],
     cta: "Cotiza tu RC Extracontractual con Star Asegurados y actúa con tranquilidad.",
-    frase: "Respaldo total ante daños a terceros fuera de un contrato.",
-    enlace: "https://tusitio.com/vehiculos",
+    frase: "Respaldo total ante daños a terceros fuera de un contrato ",
+    enlace: "https://wa.link/6wnyax",
     image: rcExtracontractual
   },
   "Cumplimiento de Contrato": {
@@ -163,24 +163,24 @@ const servicesData = {
       "Estabilidad"
     ],
     cta: "Cotiza tu seguro de cumplimiento con Star Asegurados y protege tus acuerdos.",
-    frase: "Asegura la ejecución confiable de tus contratos y proyectos.",
-    enlace: "https://tusitio.com/vehiculos",
+    frase: "Asegura la ejecución confiable de tus contratos y proyectos ",
+    enlace: "https://wa.link/d8xyl3",
     image: cumplimientoImage
   },
   "Cred. Vehículos": {
     consiste: "Los créditos para vehículos permiten financiar la compra de un carro nuevo o usado con planes de pago flexibles, tasas competitivas y opciones que se ajustan a tu capacidad financiera. Este servicio facilita el acceso a movilidad segura y moderna, ofreciendo acompañamiento durante todo el proceso para que puedas adquirir tu vehículo sin afectar tu estabilidad económica y con total tranquilidad.",
     coberturas: [],
     cta: "Solicita tu crédito para vehículo con Star Asegurados y estrena sin complicaciones.",
-    frase: "Haz realidad tu próximo vehículo con una financiación hecha para ti.",
-    enlace: "https://tusitio.com/vehiculos",
+    frase: "Haz realidad tu próximo vehículo con una financiación hecha para ti ",
+    enlace: "https://wa.link/jhc55q",
     image: credVehiculos
   },
   "Cred. Motos de Alto Cilindraje": {
     consiste: "Los créditos para motos de alto cilindraje están diseñados para quienes buscan potencia, rendimiento y libertad en la carretera, permitiendo financiar motocicletas nuevas o usadas con cuotas cómodas y condiciones favorables. Este servicio te ofrece planes ajustados a tu presupuesto, asesoría durante el proceso y respaldo seguro para que disfrutes una moto de alto desempeño sin afectar tu economía.",
     coberturas: [],
     cta: "Solicita tu crédito para moto de alto cilindraje con Star Asegurados y rueda con libertad.",
-    frase: "Lleva tu pasión sobre dos ruedas con una financiación a tu medida.",
-    enlace: "https://tusitio.com/vehiculos",
+    frase: "Lleva tu pasión sobre dos ruedas con una financiación a tu medida ",
+    enlace: "https://wa.link/igj18o",
     image: credMotosAltoCilindraje
   }
   // Puedes seguir agregando los demás servicios aquí...

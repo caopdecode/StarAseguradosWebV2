@@ -2,12 +2,14 @@
   box-sizing: border-box;
 }
 
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #000dc1, #00065B);
   color: white;
   overflow-x: hidden;
+  font-family: "Aller", system-ui, sans-serif;
 }
 
 .logo-placeholder img {
@@ -141,6 +143,7 @@ body {
 .services-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 40px;
   margin-top: 40px;
 }
@@ -157,6 +160,10 @@ body {
   padding: 40px;
 }
 
+.image-card{
+  height: 500px;
+}
+
 .services-card h3{
   color: #A8CF45;
 }
@@ -169,7 +176,8 @@ body {
   font-weight: bold;
 }
 .services-card button:hover {
-  color: #A8CF45;
+  color: #ffffff;
+  background-color: #0024a3;
 }
 
 .services-card-title{
@@ -324,6 +332,20 @@ body {
   margin-top: 1rem;
 }
 
+.modal-left a{
+  background-color: #00065B;
+  border-radius: 5px;
+  color: white;
+  transition: 0.5s;
+  padding: 3px;
+}
+
+.modal-left a:hover{
+  background-color: #A8CF45;
+  color: white;
+  transition: 0.5s;
+}
+
 .modal-right{
   width: 40%;
   display: flex;
@@ -427,7 +449,6 @@ body {
   margin-bottom: 0;
 }
 .modal-phone {
-  font-size: 1rem;
   color: #0024a3;
   font-size: 1.8rem;
 }
@@ -450,6 +471,7 @@ body {
 .contact-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 40px;
   margin-top: 40px;
 }
@@ -479,8 +501,32 @@ body {
   width: 100%;
 }
 
+.contact-button {
+  display: block;
+  width: 100%;
+  max-width: 600px; /* mismo ancho del párrafo */
+  text-align: center;
+  padding: 14px;
+  background-color: #00065B;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.5s
+}
+
+.contact-button:hover{
+  background-color: #A8CF45;
+  transition: 0.5s;
+  color: white;
+}
+
 .image-card {
   background: white;
+}
+
+.contactIMG{
+  height: auto;
 }
 
 .info-card {
@@ -603,8 +649,8 @@ body {
 }
 
 .accordion-header.open {
-  background: #A8CF45;
-  color: #00065b;
+  background: #00065B;
+  color: #FFFFFF;
 }
 
 .accordion-content {
@@ -638,6 +684,16 @@ body {
 
 .accordion-content button:hover {
   color: #A8CF45;
+}
+
+.swiper {
+  width: 100%;
+  padding: 30px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -761,12 +817,18 @@ body {
   }
 
   .aliados-grid {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 20%;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 100px));
+  gap: 15px;
+  justify-items: center;
+  margin-top: 40px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+  .aliados-grid img{
+    width: 90px;
+    height: 90px;
   }
 
   #aliados p{
@@ -775,28 +837,56 @@ body {
     font-size: 13px;
   }
 
-  .aliados-grid::after {
-    content: "";
-    width: 1px;
-  }
-
-  .aliados-grid > div {
-    scroll-snap-align: start;
-  }
-
   .aliado-card {
     width: 100px;
     height: 100px;
   }
 
-  .aliados-grid {
-    grid-template-rows: repeat(2, 0.2fr);
-    padding: 10px;
-  }
-
   .aliados-section .section-title {
     font-size: 1.6rem;
   }
+
+.modal-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.modal-title {
+  color: #A8CF45;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.modal-subtitle {
+  font-size: 14px;
+  color: #00065b;
+  margin: 0;
+}
+.modal-phone {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+.modal-card p{
+  padding: 0;
+  font-size: 20px;
+}
+  
 
   .section-subtitle {
     font-size: 0.9rem;
@@ -828,6 +918,10 @@ body {
   }
 
   .contact-card-title-sub {
+    text-align: center;
+  }
+
+  .contact-card .section-subtitle{
     text-align: center;
   }
 

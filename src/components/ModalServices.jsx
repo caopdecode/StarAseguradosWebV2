@@ -46,10 +46,10 @@ const ModalService = ({ service, onClose }) => {
           ))}
           <p className="cta">{data.cta}</p>
 
-          <p>
+          <p className="ButtonA">
             {data.frase}
             <a href={data.enlace} target="_blank" rel="noopener noreferrer">
-              aquí
+              ¡Aquí!
             </a>.
           </p>
         </div>

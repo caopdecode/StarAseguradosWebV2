@@ -15,6 +15,11 @@ import logoSufi from "../assets/IMGs/Aliados/LogoSufi.png"
 import logoBancoOccidente from "../assets/IMGs/Aliados/LogoBancoOccidente.png"
 import logoBancoFinandina from "../assets/IMGs/Aliados/BancoFinandina.png"
 import logoQualitas from "../assets/IMGs/Aliados/LogoQualitas.png"
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Grid, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/grid";
+import "swiper/css/pagination";
 
 const aliados = [
   { id: 1, name: "Sura", phone: "#888", image: logoSura},
@@ -76,7 +81,7 @@ const Aliados = () => {
               </button>
               <h3 className="modal-title">Línea de Atención</h3>
               <h4 className="modal-subtitle">{selected.name}</h4>
-              <p className="modal-phone">{selected.phone}</p>
+              <h2 className="modal-phone">{selected.phone}</h2>
             </motion.div>
           </motion.div>
         )}

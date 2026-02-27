@@ -6,6 +6,7 @@ import Aliados from "./components/Aliados";
 import Contact from "./components/Contact";  
 import Footer from "./components/Footer";    
 import './App.css'
+import "./fonts.css";
 
 function App() {
 

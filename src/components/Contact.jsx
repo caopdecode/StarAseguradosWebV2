@@ -3,12 +3,13 @@ import "../App.css";
 import { Mail, Phone, User, MessageCircle } from "lucide-react";
 import contactIMG from "../assets/IMGs/Contact.png"
 
+
 const Contact = () => {
   return (
     <section id="contact" className="section contact-section">
 
       <div className="contact-container">
-        <div className="contact-card image-card"><img src={contactIMG} alt="Imagen Contacto" /></div>
+        <div className="contact-card image-card contactIMG"><img src={contactIMG} alt="Imagen Contacto" /></div>
 
         <div className="contact-card info-card">
           <div className="contact-card-title">
@@ -21,36 +22,13 @@ const Contact = () => {
             </div>
           </div>
           <div className="contactInfo">
-            <div className="contact-item">
-                <User className="contact-icon" />
-                <span>Orlando Osorio</span>
-            </div>
-            <div className="contact-item">
-                <Mail className="contact-icon" />
-                <span>gerencia@starasegurados.com</span>
-            </div>
-            <div className="contact-item">
-                <MessageCircle className="contact-icon" />
-                <span>+57 3017604515</span>
-            </div>
-
-            <div className="contact-item">
-                <User className="contact-icon" />
-                <span>Andrea Páez</span>
-            </div>
-            <div className="contact-item">
-                <Mail className="contact-icon" />
-                <span>andrea.paez@starasegurados.com</span>
-            </div>
-            <div className="contact-item">
-                <MessageCircle className="contact-icon" />
-                <span>+57 3008165161</span>
-            </div>
+            <a
+              href="mailto:gerencia@starasegurados.com"
+              className="contact-button"
+            >
+              ¡CONTACTAR!
+            </a>
           </div>
-
-          <p className="contact-cta">
-            ¡<span>Click Aquí</span> y envíanos un mensaje!
-          </p>
         </div>
       </div>
     </section>
