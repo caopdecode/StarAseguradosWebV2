@@ -20,7 +20,16 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        © 2025 Star Asegurados Ltda. Todos los derechos reservados. Sitio web diseñado por <span>caopdecode.</span>
+        © 2025 Star Asegurados Ltda. Todos los derechos reservados. <br />
+        <a 
+          href="/privacy-policy" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="footer-link"
+        >
+          Política de Privacidad
+        </a>
+         <br />Sitio web diseñado por <span>caopdecode.</span>
       </div>
     </footer>
   );
