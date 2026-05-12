@@ -1,29 +1,101 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/StarIcon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Star Asegurados</title>
+
+    <!-- ═══ PRIMARIOS ═══ -->
+    <title>Star Asegurados Ltda | Agencia de Seguros en Cartagena de Indias</title>
+    <meta name="description" content="Agencia intermediaria de seguros con más de 10 años en Cartagena de Indias. Seguros de vida, vehículos, hogar, salud, empresas y más. Trabajamos con 14 aseguradoras aliadas para encontrarte la mejor póliza al mejor precio. ¡Cotiza gratis por WhatsApp!" />
+    <meta name="keywords" content="seguros Cartagena, agencia de seguros Cartagena, intermediario de seguros Colombia, seguros de vida, seguros de vehículos, seguros de hogar, seguros de salud, seguros empresariales, cotizar seguro Cartagena, Star Asegurados" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Star Asegurados Ltda" />
+    <link rel="canonical" href="https://starasegurados.com/" />
+
+    <!-- ═══ OPEN GRAPH (Facebook, WhatsApp, LinkedIn) ═══ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:url" content="https://starasegurados.com/" />
+    <meta property="og:site_name" content="Star Asegurados Ltda" />
+    <meta property="og:title" content="Star Asegurados Ltda | Asesores de Seguros en Cartagena" />
+    <meta property="og:description" content="Más de 10 años asesorando a familias y empresas en Cartagena. Comparamos pólizas de 14 aseguradoras y te conseguimos la mejor cobertura al mejor precio." />
+    <!-- OG IMAGE: reemplazar /og-image.png por una imagen 1200×630 px en la carpeta public/ -->
+    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Star Asegurados Ltda — Asesores de Seguros en Cartagena de Indias" />
+
+    <!-- ═══ TWITTER CARD ═══ 
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Star Asegurados Ltda | Asesores de Seguros en Cartagena" />
+    <meta name="twitter:description" content="Más de 10 años asesorando a familias y empresas en Cartagena. Comparamos pólizas de 14 aseguradoras aliadas." />
+    <meta name="twitter:image" content="https://starasegurados.com/og-image.png" /> -->
+
+    <!-- ═══ FAVICON ═══ -->
+    <link rel="icon" type="image/svg+xml" href="/StarIcon.svg" />
+
+    <!-- ═══ SCHEMA.ORG — InsuranceAgency ═══ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "InsuranceAgency",
+      "name": "Star Asegurados Ltda",
+      "alternateName": "Star Asegurados",
+      "description": "Agencia intermediaria de seguros con más de 10 años de trayectoria en Cartagena de Indias. Asesoría personalizada en seguros de vida, salud, vehículos, hogar, empresas y más, con respaldo de 14 aseguradoras aliadas.",
+      "url": "https://starasegurados.com",
+      "telephone": "+573216632745",
+      "email": "gerencia@starasegurados.com",
+      "foundingDate": "2014",
+      "slogan": "Star con nosotros aseguras tus sueños",
+      "logo": "https://starasegurados.com/StarIcon.svg",
+      "image": "https://starasegurados.com/og-image.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Parque El Country Mz O Lote 5 Piso 2",
+        "addressLocality": "Cartagena de Indias",
+        "addressRegion": "Bolívar",
+        "addressCountry": "CO"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "10.3932",
+        "longitude": "-75.4832"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Cartagena de Indias" },
+        { "@type": "State", "name": "Bolívar" },
+        { "@type": "Country", "name": "Colombia" }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/staraseguradosltda"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+573216632745",
+        "contactType": "customer service",
+        "contactOption": "TollFree",
+        "availableLanguage": "Spanish"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Productos de Seguros y Créditos",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Seguro de Vida" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Seguro de Salud" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Seguro de Vehículos" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Seguro de Hogar" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Seguro de Motocicletas" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Seguro de Educación" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Seguro de Arrendamiento" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Responsabilidad Civil Empresarial" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Crédito para Vehículos" } }
+        ]
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <!-- Chatwoot -->
-    <script>
-      (function(d,t) {
-        var BASE_URL="https://chatwoot-chatwoot.lhdkwr.easypanel.host";
-        var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=BASE_URL+"/packs/js/sdk.js";
-        g.async = true;
-        s.parentNode.insertBefore(g,s);
-        g.onload=function(){
-          window.chatwootSDK.run({
-            websiteToken: 'XhrwnvkZE2BXFz6qB1d6i3ip',
-            baseUrl: BASE_URL
-          })
-        }
-      })(document,"script");
-    </script>
   </body>
 </html>

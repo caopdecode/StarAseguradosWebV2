@@ -29,7 +29,7 @@ const Footer = () => {
         >
           Política de Privacidad
         </a>
-         <br />Sitio web diseñado por <span>caopdecode.</span>
+         <br />Sitio web diseñado por <span><a href="https://www.caopdecode.com" target="_blank">caopdecode</a>.</span>
       </div>
     </footer>
   );
