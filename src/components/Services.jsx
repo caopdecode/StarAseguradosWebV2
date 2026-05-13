@@ -16,7 +16,11 @@ const seguroProducts = [
   { name: "RC Profesional",           tagline: "Respaldo ante errores en tu ejercicio" },
   { name: "RC Contractual",           tagline: "Garantiza tus obligaciones contractuales" },
   { name: "RC Extracontractual",      tagline: "Protección frente a daños a terceros" },
-  { name: "Cumplimiento de Contrato", tagline: "Seguridad en tus acuerdos y proyectos" },
+  { name: "RC Alojamientos Turísticos",      tagline: "Protección frente a daños a terceros" },
+  { name: "Cumplimiento Estatal y Particular", tagline: "Seguridad en tus acuerdos y proyectos" },
+  { name: "Maquinaria y Equipo de Contratistas", tagline: "Seguridad en tus acuerdos y proyectos" },
+  { name: "Construcción", tagline: "Seguridad en tus acuerdos y proyectos" },
+
 ];
 
 const creditProducts = [
@@ -49,7 +53,7 @@ const Services = () => {
         className="services-grid-card-cta"
         onClick={(e) => { e.stopPropagation(); handleSelect(name); }}
       >
-        Cotizar →
+        Ver más
       </button>
     </motion.div>
   );

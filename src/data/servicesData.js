@@ -13,6 +13,9 @@ import rcContractual from "../assets/IMGs/Services/rcContractual.png";
 import rcExtracontractual from "../assets/IMGs/Services/Extracontractual.png";
 import credVehiculos from "../assets/IMGs/Services/credVehiculos.png";
 import credMotosAltoCilindraje from "../assets/IMGs/Services/CredMotosAltoCilindraje.png";
+import maquinariaImage from "../assets/IMGs/Services/Maquinaria.png";
+import construccionImage from "../assets/IMGs/Services/Construccion.png";
+import rcAlojamientosImage from "../assets/IMGs/Services/rcAlojamiento.png";
 
 const servicesData = {
   "Vida": {
@@ -152,7 +155,7 @@ const servicesData = {
     enlace: "https://wa.link/rkw5lp",
     image: rcExtracontractual
   },
-  "Cumplimiento de Contrato": {
+  "Cumplimiento Estatal y Particular": {
     consiste: "El seguro de cumplimiento garantiza que las obligaciones pactadas en un contrato se cumplan correctamente, protegiendo a empresas y personas frente a posibles incumplimientos de contratistas. Ofrece respaldo en contratos comerciales, órdenes de compra y ofertas mercantiles, asegurando la correcta ejecución de compromisos y aportando seguridad jurídica y confianza en cada proceso contractual.",
     coberturas: [
       "Cumplimiento",
@@ -182,6 +185,45 @@ const servicesData = {
     frase: "Lleva tu pasión sobre dos ruedas con una financiación a tu medida ",
     enlace: "https://wa.link/90c35v",
     image: credMotosAltoCilindraje
+  },
+  "Maquinaria y Equipo de Contratistas": {
+    consiste: "El seguro de Maquinaria y Equipo de Contratistas protege tu maquinaria frente a daños, pérdidas y hurtos, resguardando la continuidad de tus proyectos y la confianza que tus clientes depositan en tu empresa. Diseñado para maquinaria del sector construcción, agrícola e industrial —como retroexcavadoras, buldóceres, equipos de levantamiento de cargas y maquinaria sobre chasis—, este seguro cubre desde daños por fenómenos naturales y actos malintencionados hasta responsabilidad civil frente a terceros afectados durante la operación. Una protección integral para tu patrimonio, tu equipo de trabajo y la continuidad de cada obra.",
+    coberturas: [
+      "Daños exteriores: incendios, explosiones, impactos de rayos y volcamientos.",
+      "Daños por fenómenos naturales: terremotos, erupciones volcánicas y eventos climáticos.",
+      "Hurto de maquinaria con violencia y actos malintencionados de empleados o terceros.",
+    ],
+    cta: "Cotiza tu seguro de maquinaria y equipo con Star Asegurados y protege la continuidad de tus proyectos.",
+    frase: "Tu maquinaria trabaja sin pausa; protégela ante cualquier imprevisto ",
+    enlace: "https://wa.link/f0jp9y",
+    image: maquinariaImage
+  },
+
+  "Construcción": {
+    consiste: "El seguro de Construcción protege tus obras y proyectos civiles frente a daños materiales súbitos e imprevistos que puedan comprometer el avance y la rentabilidad de tu inversión. Cubre edificaciones residenciales, comerciales y obras de infraestructura ante eventos como inundaciones, deslizamientos, hurtos, incendios, actos malintencionados y errores humanos durante la ejecución. Incluye también cobertura de responsabilidad civil frente a personas y bienes externos al proyecto, cobertura de diseño y período de mantenimiento, garantizando que cada etapa de tu obra avance con tranquilidad, dentro del cronograma y con el respaldo que tus clientes y socios estratégicos esperan.",
+    coberturas: [
+      "Daños materiales por actos malintencionados de empleados o terceros, hurto e incendio.",
+      "Daños por eventos naturales: inundaciones, deslizamientos y movimientos sísmicos.",
+      "Hurtos en la obra con violencia.",
+      "Actos malintencionados de terceros."
+    ],
+    cta: "Cotiza tu seguro de construcción con Star Asegurados y lleva cada obra a buen término con total respaldo.",
+    frase: "Construye con confianza sabiendo que cada etapa de tu obra está protegida ",
+    enlace: "https://wa.link/58habe",
+    image: construccionImage
+  },
+  "RC Alojamientos Turísticos": {
+    consiste: "El Seguro de Responsabilidad Civil Extracontractual para Alojamientos Turísticos, en cumplimiento del Artículo 32 de la Ley 2068 de 2020, protege al asegurado frente a los daños patrimoniales y extrapatrimoniales (daño emergente y lucro cesante) que puedan generarse como consecuencia de la responsabilidad civil derivada de su actividad, conforme a la legislación colombiana. Esta poliza ampara reclamaciones por lesiones, afectaciones a la salud o fallecimiento de personas, así como por daños, pérdida o destrucción de bienes pertenecientes a huéspedes o terceros, ocurridos durante el desarrollo habitual de las operaciones del establecimiento turístico.",
+    coberturas: [
+      "RC propietarios, arrendatarios o poseedores.",
+      "RC por servicios de guardarropa.",
+      "RC contratistas, y subcontratistas, gastos médicos",
+      "Daños materiales o hurto calificado a bienes de huéspedes.",
+    ],
+    cta: "Cotiza tu seguro de RC para Alojamientos Turísticos con Star Asegurados y opera con tranquilidad, respaldo legal y confianza.",
+    frase: "Protege a tus huéspedes, cumple la ley y cuida el patrimonio de tu negocio turístico ",
+    enlace: "https://wa.link/mq9brv",
+    image: rcAlojamientosImage
   }
   // Puedes seguir agregando los demás servicios aquí...
 };

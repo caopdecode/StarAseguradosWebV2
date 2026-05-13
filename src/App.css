@@ -1373,9 +1373,10 @@ body {
     align-items: center;
   }
 
-  .landing-visual {
-    display: none;
-  }
+  .landing-logo-wrapper img {
+  width: 70%;
+  height: auto;
+}
 
   .landing-badge {
     font-size: 0.78rem;
