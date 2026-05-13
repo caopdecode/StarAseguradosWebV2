@@ -4,27 +4,26 @@ import ModalService from "./ModalServices";
 import servicesData from "../data/servicesData";
 
 const seguroProducts = [
-  { name: "Vida",                     tagline: "Protege tu futuro y el de tu familia" },
-  { name: "Salud",                    tagline: "Respaldo médico inmediato cuando más lo necesitas" },
-  { name: "Hogar",                    tagline: "Cuida tu vivienda y patrimonio familiar" },
-  { name: "Vehículos",                tagline: "Maneja con total tranquilidad" },
-  { name: "Educación",                tagline: "Invierte en el futuro académico" },
-  { name: "Motocicletas",             tagline: "Cobertura integral para tu moto" },
-  { name: "Arrendamiento",            tagline: "Protege tus ingresos como arrendador" },
-  { name: "Bicicletas",               tagline: "Pedalea sin preocupaciones" },
-  { name: "RC Empresas",              tagline: "Protege tu empresa frente a terceros" },
-  { name: "RC Profesional",           tagline: "Respaldo ante errores en tu ejercicio" },
-  { name: "RC Contractual",           tagline: "Garantiza tus obligaciones contractuales" },
-  { name: "RC Extracontractual",      tagline: "Protección frente a daños a terceros" },
-  { name: "RC Alojamientos Turísticos",      tagline: "Protección frente a daños a terceros" },
+  { name: "Vida", tagline: "Protege tu futuro y el de tu familia" },
+  { name: "Salud", tagline: "Respaldo médico inmediato cuando más lo necesitas" },
+  { name: "Hogar", tagline: "Cuida tu vivienda y patrimonio familiar" },
+  { name: "Vehículos", tagline: "Maneja con total tranquilidad" },
+  { name: "Educación", tagline: "Invierte en el futuro académico" },
+  { name: "Motocicletas", tagline: "Cobertura integral para tu moto" },
+  { name: "Arrendamiento", tagline: "Protege tus ingresos como arrendador" },
+  { name: "Bicicletas", tagline: "Pedalea sin preocupaciones" },
+  { name: "RC Empresas", tagline: "Protege tu empresa frente a terceros" },
+  { name: "RC Profesional", tagline: "Respaldo ante errores en tu ejercicio" },
+  { name: "RC Contractual", tagline: "Garantiza tus obligaciones contractuales" },
+  { name: "RC Extracontractual", tagline: "Protección frente a daños a terceros" },
+  { name: "RC Alojamientos Turísticos", tagline: "Respaldo para huéspedes, terceros y tu operación" },
   { name: "Cumplimiento Estatal y Particular", tagline: "Seguridad en tus acuerdos y proyectos" },
-  { name: "Maquinaria y Equipo de Contratistas", tagline: "Seguridad en tus acuerdos y proyectos" },
-  { name: "Construcción", tagline: "Seguridad en tus acuerdos y proyectos" },
-
+  { name: "Maquinaria y Equipo de Contratistas", tagline: "Protección para la maquinaria que impulsa tus proyectos" },
+  { name: "Construcción", tagline: "Cobertura integral para cada etapa de tu obra" },
 ];
 
 const creditProducts = [
-  { name: "Cred. Vehículos",                tagline: "Financia tu vehículo con facilidad" },
+  { name: "Cred. Vehículos", tagline: "Financia tu vehículo con facilidad" },
   { name: "Cred. Motos de Alto Cilindraje", tagline: "Crédito para motos de alta gama" },
 ];
 
