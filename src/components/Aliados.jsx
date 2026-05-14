@@ -33,7 +33,7 @@ const financieras = [
   { id: 11, name: "Finesa Vehículos",   phone: "+57 3160172064",    image: logoFinesa },
   { id: 12, name: "Sufi",               phone: "018000517834",      image: logoSufi },
   { id: 13, name: "Banco de Occidente", phone: "018000514652",      image: logoBancoOccidente },
-  { id: 14, name: "Banco Finandina",    phone: "018000514652",      image: logoBancoFinandina },
+ // { id: 14, name: "Banco Finandina",    phone: "018000514652",      image: logoBancoFinandina },
 ];
 
 const AliadoCard = ({ aliado, index, onSelect }) => (
