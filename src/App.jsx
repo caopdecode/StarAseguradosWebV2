@@ -10,6 +10,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 import ConfianzaRapida from "./components/ConfianzaRapida";
 import Proceso from "./components/Proceso";
+import CookieBanner from "./components/CookieBanner";
 import './App.css'
 import "./fonts.css";
 
@@ -33,6 +34,7 @@ function Home() {
 function App() {
   return (
     <Router>
+      <CookieBanner />
       <Routes>
 
         <Route path="/" element={<Home />} />
